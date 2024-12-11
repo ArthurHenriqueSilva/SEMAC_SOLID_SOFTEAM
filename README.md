@@ -1,4 +1,4 @@
-# Sistema de Gerenciamento Universitário - Demonstração dos Princípios SOLID
+# Sistema de Gerenciamento de Usuários - Demonstração dos Princípios SOLID
 
 
 ## 📚 **Propósito do Repositório**
