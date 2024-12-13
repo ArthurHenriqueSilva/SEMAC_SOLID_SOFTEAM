@@ -18,5 +18,17 @@ import UserService from "../service/UserService";
  * const user = await userService.getUserById(1);
  */
 const userRepository = new UserRepository();
-
 const userService = new UserService(userRepository);
+
+// Exemplo de criação de um usuário
+const createUserExample = async () => {
+    const newUser = await userService.createUser("Arthur Henrique", "arthur@email.com", "MYpassword123$!");
+    console.log("Usuário criado:", newUser);
+
+    // Recuperando um usuário pelo ID
+    const user = await userService.getUserById(newUser.id);
+    console.log("Usuário recuperado:", user);
+};
+
+// Executando o exemplo
+createUserExample().catch(error => console.error("Erro:", error));
