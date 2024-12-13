@@ -1,4 +1,4 @@
-# Sistema de Gerenciamento Universitário - Demonstração dos Princípios SOLID
+# Sistema de Gerenciamento de Usuários - Demonstração dos Princípios SOLID
 
 
 ## 📚 **Propósito do Repositório**
@@ -10,12 +10,12 @@ Este repositório foi desenvolvido como uma **demonstração prática** dos conc
 
 ### O que são os prinípios SOLID ?
 
-**Os princípios SOLID são um conjuento de diretrizes de design que ajudam a criar software mais:**
+**Os princípios SOLID são um conjunto de diretrizes de design que ajudam a criar software mais:**
 - **Sustentável**: Facilita a adição de novas funcionalidades.
 - **Manuntenível**: Reduz o impatcto de alterações no sistema.
 - **Legível**: Promove a clareza e coesão do código.
 
-**Princíopios Demonstrados:**
+**Princípios Demonstrados:**
 - **SRP (Single Responsability Principle)**: Cada classe ou módulo deve ter uma única responsabilidade.
 - **OCP (Open/Closed Principle):** O software deve ser aberto para extensão, mas fechado para modificação.
 - **LSP (Liskov Substitution Principle):** Objetos de uma classe derivada devem poder substituir objetos da classe base sem quebrar o sistema.
